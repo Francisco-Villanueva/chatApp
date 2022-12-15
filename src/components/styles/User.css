@@ -1,0 +1,16 @@
+.user-main, .card-user, .user-data{
+display:  flex;
+flex-direction: column;
+justify-content: space-around;
+align-items: center;
+}
+.user-main{
+    background-color: rgba(255,255,255,0.5);
+}
+
+
+
+.user-data img{
+    border-radius: 150%;
+    width:50%;
+}
