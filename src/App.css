@@ -1,8 +1,11 @@
-.App{
+.App {
+  display: grid;
+  place-items: center;
   width: 100vw;
+}
+.app-main {
   display: grid;
   grid-template-columns: 1fr 4fr;
-  place-items: center;
+  height: 70vh;
+  gap: 2rem;
 }
-
-.right-side{}
