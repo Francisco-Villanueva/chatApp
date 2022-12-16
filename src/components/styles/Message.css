@@ -1,0 +1,28 @@
+.text-styles {
+  display: flex;
+}
+.my-message {
+  color: #000;
+  text-align: end;
+}
+.message {
+  color: #000;
+}
+.message .text-message p {
+  background-color: #ffbdd9;
+}
+.my-message .text-message p {
+  background-color: #0a6298;
+}
+.text-message p {
+  display: inline-block;
+  background-color: #000;
+  border-radius: 1em;
+  padding: 0.3em 0.8em;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+.text-message img {
+  width: 10%;
+  border-radius: 10rem;
+}

@@ -20,7 +20,7 @@ export default function User() {
       </div>
       <article className="card-user">
         <div className="user-data">
-          <img src={userImg} alt="user photo" />
+          <img src={userImg} alt="user photo" referrerPolicy="no-referrer" />
           <p>{userName}</p>
         </div>
       </article>

@@ -5,6 +5,7 @@ import { useState } from "react";
 import { useEffect } from "react";
 import Message from "./Message";
 import "./styles/Chat.css";
+import SendMessage from "./SendMessage";
 
 export default function Chat() {
   const [message, setMessage] = useState([]);
@@ -29,7 +30,8 @@ export default function Chat() {
     <div className="chat-main">
       <section className="chat-container">
         {message && message.map((m) => <Message key={m.id} msg={m.content} />)}
-        <h4>This is a message</h4>
+
+        <SendMessage />
       </section>
     </div>
   );
