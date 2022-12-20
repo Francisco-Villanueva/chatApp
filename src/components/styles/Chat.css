@@ -1,7 +1,19 @@
 .chat-main {
-  background-color: #cecece;
+  background-color: #4d9da1;
   border-radius: 1em;
   padding: 1em;
+  max-height: max-content;
 }
+.messages-container {
+  display: inline-block;
+}
+
 .chat-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+.sender-container {
+  width: 100%;
 }

@@ -29,9 +29,13 @@ export default function Chat() {
   return (
     <div className="chat-main">
       <section className="chat-container">
-        {message && message.map((m) => <Message key={m.id} msg={m.content} />)}
-
-        <SendMessage />
+        <div className="messages-container">
+          {message &&
+            message.map((m) => <Message key={m.id} msg={m.content} />)}
+        </div>
+        <div className="sender-container">
+          <SendMessage />
+        </div>
       </section>
     </div>
   );

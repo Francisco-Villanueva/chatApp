@@ -1,0 +1,19 @@
+.form-main {
+  display: grid;
+  grid-template-columns: 6fr 1fr;
+}
+.form-main input {
+  background-color: #1c233a;
+  border: none;
+  font-family: "Montserrat";
+  font-size: 1rem;
+  letter-spacing: 1px;
+  outline: none;
+  border-radius: 1em;
+  padding: 0 2em;
+}
+.form-main button {
+  background-color: #1c233a;
+  transition: background 0.3s;
+  border: none;
+}

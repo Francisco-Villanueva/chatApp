@@ -2,6 +2,7 @@ import { async } from "@firebase/util";
 import { addDoc, collection, serverTimestamp } from "firebase/firestore";
 import React, { useState } from "react";
 import { db, auth } from "../firebase";
+import "./styles/SendMessage.css";
 export default function SendMessage() {
   const [input, setInput] = useState("");
 
@@ -20,8 +21,8 @@ export default function SendMessage() {
   };
 
   return (
-    <div>
-      <form onSubmit={sendMessage}>
+    <div className="sendForm">
+      <form className="form-main" onSubmit={sendMessage}>
         <input
           type="text"
           placeholder="Enter your message"
