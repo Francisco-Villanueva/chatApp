@@ -6,12 +6,23 @@
   justify-content: space-around;
 }
 .user-main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+.app-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.card-user {
   display: grid;
-  grid-template-rows: 1fr 3fr;
-  text-align: center;
-  background-color: #455064;
+  grid-template-rows: 6fr 1fr;
+  place-items: center;
+  background-color: #cb8086;
   padding: 1em;
   border-radius: 1em;
+  width: 15vw;
 }
 
 .user-data img {

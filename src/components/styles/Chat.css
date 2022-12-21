@@ -1,11 +1,27 @@
 .chat-main {
-  background-color: #4d9da1;
+  background-color: #00000f;
   border-radius: 1em;
   padding: 1em;
   max-height: max-content;
 }
 .messages-container {
-  display: inline-block;
+  border-radius: 25px;
+  padding: 0 1rem;
+  height: 80vh;
+  overflow: auto;
+}
+.messages-container::-webkit-scrollbar {
+  background-color: #cecece;
+  width: 10px;
+  border-radius: 1em;
+}
+.messages-container::-webkit-scrollbar-thumb {
+  background-color: #8e5a67d0;
+  border-radius: 0.5em;
+  transition: all 0.3s;
+}
+.messages-container::-webkit-scrollbar-thumb:hover {
+  background-color: #8e5a67;
 }
 
 .chat-container {

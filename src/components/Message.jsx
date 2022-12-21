@@ -13,7 +13,7 @@ export default function Message(props) {
       user === newUser ? "my-message msg-format" : "message msg-format";
   }
 
-  console.log(props.msg.timestamp, "asdasd");
+  // console.log(props.msg.timestamp, "TIEMSTAMPS");
   return (
     <div className={newStyle}>
       <div className="msgYimg">

@@ -16,15 +16,16 @@ export default function User() {
   return (
     <div className="user-main">
       <div className="app-title">
-        <h3>Rapi-chat</h3>
+        <h3>Rapichat</h3>
       </div>
       <article className="card-user">
         <div className="user-data">
           <img src={userImg} alt="user photo" referrerPolicy="no-referrer" />
           <p>{userName}</p>
         </div>
+
+        <div className="loger-container">{user ? <LogOut /> : <LogIn />}</div>
       </article>
-      {user ? <LogOut /> : <LogIn />}
     </div>
   );
 }
