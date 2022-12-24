@@ -1,8 +1,11 @@
 .chat-main {
   background-color: #00000f;
-  border-radius: 1em;
-  padding: 1em;
+  border-radius: 2em;
+  padding: 0em ;
   max-height: max-content;
+  display: grid;
+  grid-template-rows: .5fr 10fr;
+  gap: 1rem;
 }
 .messages-container {
   border-radius: 25px;

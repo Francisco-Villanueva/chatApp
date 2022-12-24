@@ -9,11 +9,14 @@
   font-size: 1rem;
   letter-spacing: 1px;
   outline: none;
-  border-radius: 1em;
   padding: 0 2em;
 }
 .form-main button {
   background-color: #1c233a;
   transition: background 0.3s;
-  border: none;
+  border: 1px solid #cecece50;
+  border-radius: 0;
 }
+ .form-main button:hover{
+  border-color: #fff;
+ }

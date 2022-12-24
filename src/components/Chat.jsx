@@ -6,6 +6,7 @@ import { useEffect } from "react";
 import Message from "./Message";
 import "./styles/Chat.css";
 import SendMessage from "./SendMessage";
+import TopChat from "./TopChat";
 
 export default function Chat() {
   const [message, setMessage] = useState([]);
@@ -28,6 +29,7 @@ export default function Chat() {
   }, []);
   return (
     <div className="chat-main">
+      <TopChat/>
       <section className="chat-container">
         <div className="messages-container">
           {message &&
